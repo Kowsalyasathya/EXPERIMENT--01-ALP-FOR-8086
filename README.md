@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : Kowsalya M
-Roll no : 212222230069
-Date of experiment : Ex01
+### Name : Kowsalya M
+### Roll no : 212222230069
+### Date of experiment : Ex01
 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
@@ -49,7 +49,8 @@ add ax,bx;
 mov [7895h],ax;
 ```
 ## Output  
- C:\Users\kowsa\Pictures\Screenshots\Screenshot (374).png
+![Screenshot 2024-02-20 154400](https://github.com/Kowsalyasathya/EXPERIMENT--01-ALP-FOR-8086/assets/118671457/0daa8dbb-0134-489f-9531-d44d3822354c)
+
 ## Subtraction   of 8 bit numbers  ALP 
  ```
 org 100h
@@ -62,7 +63,8 @@ mov [7895h],al;
 ret
 ```
 ## Output :
-C:\Users\kowsa\Pictures\Screenshots\Screenshot 2024-02-20 155431.png
+![Screenshot 2024-02-20 155431](https://github.com/Kowsalyasathya/EXPERIMENT--01-ALP-FOR-8086/assets/118671457/f8289504-d887-40f0-a211-eff9e268fcd8)
+
 ## Multiplication alp :
 ```
 org 100h
@@ -73,7 +75,8 @@ mul ax;
 mov [5894h],ax;
 ```
  ## Output  
-C:\Users\kowsa\Pictures\Screenshots\Screenshot (375).png
+![Screenshot (374)](https://github.com/Kowsalyasathya/EXPERIMENT--01-ALP-FOR-8086/assets/118671457/3cdd418a-09e0-466c-892f-c5416f8fb319)
+
 
 ## Division alp 
 ```
@@ -87,7 +90,8 @@ mov [6935h],bx;
 ret
 ```
 ## Output  
-C:\Users\kowsa\Pictures\Screenshots\Screenshot (376).png
+![Screenshot (376)](https://github.com/Kowsalyasathya/EXPERIMENT--01-ALP-FOR-8086/assets/118671457/9af81cd9-7ba8-4b5d-a617-e8e9d0ce7ba8)
+
 
 ## Result :
  
