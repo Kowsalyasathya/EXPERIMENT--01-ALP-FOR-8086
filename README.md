@@ -1,8 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-### Name : Kowsalya M
-### Roll no : 212222230069
-### Date of experiment : Ex01
-
+```
+Name : Kowsalya M
+Roll no : 212222230069
+Date of experiment : Ex01
+```
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -47,6 +48,8 @@ mov ax,0782h;
 mov bx,0568h;
 add ax,bx;
 mov [7895h],ax;
+
+ret
 ```
 ## Output  
 ![Screenshot 2024-02-20 154400](https://github.com/Kowsalyasathya/EXPERIMENT--01-ALP-FOR-8086/assets/118671457/0daa8dbb-0134-489f-9531-d44d3822354c)
@@ -69,14 +72,16 @@ ret
 ```
 org 100h
 
-mov ax,0a52h;
-mov bx,0b78h;
-mul ax;
-mov [5894h],ax;
+mov ax,0b548h;
+mov bx,0a178h;
+mul bx;
+mov [6254h],bx;
+
+ret
 ```
  ## Output  
-![Screenshot (374)](https://github.com/Kowsalyasathya/EXPERIMENT--01-ALP-FOR-8086/assets/118671457/3cdd418a-09e0-466c-892f-c5416f8fb319)
-
+ 
+![Screenshot (377)](https://github.com/Kowsalyasathya/EXPERIMENT--01-ALP-FOR-8086/assets/118671457/db05d5bf-ecf7-4b62-93fe-78ab8235504e)
 
 ## Division alp 
 ```
