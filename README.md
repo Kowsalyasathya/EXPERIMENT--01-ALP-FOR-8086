@@ -1,10 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
-
-
+Name : Kowsalya M
+Roll no : 212222230069
+Date of experiment : Ex01
 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
@@ -29,75 +26,72 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
 8.	 
 
-
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
 
-
-
-
-
-
-
-
-
-
-
 9.	Click on emulate to start emulation 
-
-
-
-
-
-
-
 
 ![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
 
 
-
-
-
-
-
-
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
 
-
-
-
-
-
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
-
-
-
-
-
-
 
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
+org 100h
 
-
-
+mov ax,0782h;
+mov bx,0568h;
+add ax,bx;
+mov [7895h],ax;
+```
 ## Output  
- 
+ C:\Users\kowsa\Pictures\Screenshots\Screenshot (374).png
 ## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
- ## Output  
+ ```
+org 100h
 
+mov al,9h;
+mov bl,6h;
+sub al,bl;
+mov [7895h],al;
+
+ret
+```
+## Output :
+C:\Users\kowsa\Pictures\Screenshots\Screenshot 2024-02-20 155431.png
+## Multiplication alp :
+```
+org 100h
+
+mov ax,0a52h;
+mov bx,0b78h;
+mul ax;
+mov [5894h],ax;
+```
+ ## Output  
+C:\Users\kowsa\Pictures\Screenshots\Screenshot (375).png
 
 ## Division alp 
+```
+org 100h
 
+mov ax,0d545h;
+mov bx,0a178h;
+div bx;
+mov [6935h],bx;
+
+ret
+```
 ## Output  
-
+C:\Users\kowsa\Pictures\Screenshots\Screenshot (376).png
 
 ## Result :
  
-
+Hence ALP on fundamental arithmetic and logical operations is verified and executed.
 
 
 
