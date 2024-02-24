@@ -46,10 +46,10 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ```
 org 100h
 
-mov ax,0782h;
-mov bx,0568h;
+mov ax,8h;
+mov bx,7h;
 add ax,bx;
-mov [7895h],ax;
+mov [2345h],ax;
 
 ret
 ```
