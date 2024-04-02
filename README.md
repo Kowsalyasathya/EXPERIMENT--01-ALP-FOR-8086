@@ -1,10 +1,7 @@
-# EXPERIMENT 01 ALP FOR 8086
-```
-Name : Kowsalya M
-Roll no : 212222230069
-Date of experiment : Ex01
-```
+### Name : Kowsalya M
+### Roll no : 212222230069
 
+# EXPERIMENT 01 ALP FOR 8086
 ## Aim: 
 To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 
