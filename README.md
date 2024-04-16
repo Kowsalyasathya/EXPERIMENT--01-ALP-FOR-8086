@@ -91,6 +91,47 @@ ret
 ```
 ## Output  
 ![Screenshot (376)](https://github.com/Kowsalyasathya/EXPERIMENT--01-ALP-FOR-8086/assets/118671457/9af81cd9-7ba8-4b5d-a617-e8e9d0ce7ba8)
+## Programs for logical operations:
+### AND
+```
+org 100h
+mov bx,1000h;
+and bx,1111h;
+mov [0040h+02],bx;
+ret
+```
+![322804829-36e7da71-bc9b-4f6c-a8e7-8e7649a2c3f3](https://github.com/Kowsalyasathya/EXPERIMENT--01-ALP-FOR-8086/assets/118671457/3b8cc2f3-8601-4597-86c5-fc05ecfdc5c5)
+### OR:
+```
+org 100h
+mov ax,[0040h+06];
+mov bx,1000h;
+or ax,bx;
+mov [0040h+02],ax;
+ret
+```
+![322805036-99e9f673-0e07-4ec4-bbc7-a2e05721dd31](https://github.com/Kowsalyasathya/EXPERIMENT--01-ALP-FOR-8086/assets/118671457/010f6c3b-c24f-4ea3-8b75-3642ed53dc87)
+### NOT:
+```
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+not al;
+mov [0040h+04],ax;
+ret
+```
+![322805176-14cd7db9-bd58-486b-b7d4-0d38a91a32d6](https://github.com/Kowsalyasathya/EXPERIMENT--01-ALP-FOR-8086/assets/118671457/9c0950f7-c32c-438f-b87d-ccd3debe8b32)
+### XOR:
+```
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+xor ax,bx;
+mov [0040h+04],ax;
+ret
+```
+![322805289-8e124a37-ef18-47f4-90fb-16cec9d02949](https://github.com/Kowsalyasathya/EXPERIMENT--01-ALP-FOR-8086/assets/118671457/c1163f7c-528f-4b6e-86ce-48fe1cc2d907)
+
 ## Result :
  
 Hence ALP on fundamental arithmetic and logical operations is verified and executed.
